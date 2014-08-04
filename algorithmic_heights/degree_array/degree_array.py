@@ -12,8 +12,8 @@ class edge_list_graph:
     def print_vertices(self):
         print self.vertices.values()
 
- 
 
+ 
 with open ("/home/benpote/Downloads/rosalind_deg (2).txt", "r") as myfile:
     data = myfile.read()
 
