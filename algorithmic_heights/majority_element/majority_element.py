@@ -2,7 +2,7 @@
 #a class to hold all of the variables we need
 class ElementArray:
     def __init__(self,input_string):
-        elements = [[int(i) for i in k.split(' ')] for k in data.split('\n') if k != '']
+        elements = [[int(i) for i in k.split(' ')] for k in input_string.split('\n') if k != '']
         self.k = elements[0][0]
         self.n = elements[0][1]
         self.arrays = elements[1:]
